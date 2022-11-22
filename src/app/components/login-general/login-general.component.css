@@ -1,0 +1,113 @@
+* {
+    margin:0%;
+    padding:0px;
+    align-items: center;
+}
+
+img{
+    height:300px ; 
+    width: 300px;
+    margin: 2% 0;
+}
+
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.60);
+    height:100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    justify-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body{
+    display: flex; 
+    align-items:center; 
+    flex-direction: column; 
+    text-align: center; 
+    background-size:cover; 
+    min-width:auto; 
+    height:931px; 
+    margin:0%;
+
+}
+
+button{
+    height: 40px; 
+    width: 300px; 
+    border-radius: 15px;
+    font-size:larger; 
+}
+.Login {
+    color:rgb(63, 167, 4); 
+    background-color: rgb(255, 255, 255) ;
+}
+
+.SignIn{
+    color:rgb(255, 255, 255); font-size:larger; 
+    background-color: rgb(63, 167, 4);
+}
+    
+
+  ul, ol {
+      list-style:none;
+  }
+  
+  .nav > li {
+      float:left;
+  }
+  
+  .nav li a {
+      background-color:rgb(3, 99, 7);
+      color:#fff;
+      text-decoration:none;
+      padding:5px 12px;
+      display:block;
+      margin: 0px;
+
+  }
+  
+  .nav li a:hover {
+      background-color:#434343;
+  }
+  
+  .nav li ul {
+      display:none;
+      position:absolute;
+      min-width:140px;
+  }
+  
+  .nav li:hover > ul {
+      display:block;
+  }
+  
+  .nav li ul li {
+      position:relative;
+  }
+  
+  .nav li ul li ul {
+      right:-140px;
+      top:0px;
+  }
+
+  .btn {
+    color:rgb(255, 255, 255); 
+    border: solid 2px black;
+    background-color: rgb(63, 167, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    height: 40px; 
+    width: 300px; 
+    border-radius: 15px;
+    font-size:larger; 
+    padding-left: 8.5%;
+  }
+
+  a{
+    height: 30px; 
+    width: 300px; 
+    padding-top: 0.8%;
+    text-align: center;
+  }

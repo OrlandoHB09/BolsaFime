@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="header.component.css">
+</head>
+<body>
+    
+    <div id="FlexCol" style="background-color:rgb(3, 99, 7); color: white; width: 100px;">
+        <div style="align-self: center; ">
+            <img src="assets/images/LogoO.png" alt="Logo de bolsa fime" style="height:60px ; width: 60px; padding-top: 5px;">
+        </div>
+
+        <div style="align-self: center; font-weight: bold;">Bolsa FIME</div>
+    </div>
+
+    <div id="FlexCol">
+
+        <div class="FlexTextC">
+            <b >UNIVERSIDAD AUTÓNOMA DE NUEVO LEÓN</b>
+        </div>
+
+        <div class ="Search">
+            Búsqueda: <input type="text" id="searchBox" name="caja" required
+            minlength="0" maxlength="50" size=20>
+        </div>
+
+        <div id="HeaderFull">
+            <ul class="nav">
+                <li><a routerLink="">Inicio</a></li>
+                <li><a routerLink="/nosotros">¿Quienes Somos?</a></li>
+                <li><a routerLink="/eventos">Eventos</a></li>
+                <li><a routerLink="">Calendario</a></li>
+                <li><a routerLink="/login">Ingresar</a></li>
+            </ul>
+          </div>
+
+    </div>
+
+</body>
+</html>

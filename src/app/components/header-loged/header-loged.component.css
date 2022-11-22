@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    flex-direction:column;
+    background-color:gainsboro;
+
+    align-items: center;
+    flex-grow: 1;
+    width: 200px;
+}

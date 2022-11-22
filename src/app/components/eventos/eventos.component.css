@@ -1,0 +1,46 @@
+
+
+body{
+    
+    justify-content: center;
+    padding: 0vh 15vw;
+    background-image: url('../../../assets/images/Eventos/fondoEventos.jpg');
+    background-repeat:repeat;
+    height: 100%;
+}
+
+p{
+    height: 100%;
+}
+
+.card{
+    width: 19rem;
+    margin: 1vh 0.5vw;
+    background-color:darkgrey ;
+}
+
+#contenido{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.titulo{
+    width: 100%;
+    padding-left: 2vw;
+}
+
+.btn {
+    background-color: #FBC43D;
+    border-color: #FBC43D;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    
+}
+
