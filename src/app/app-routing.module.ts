@@ -10,6 +10,9 @@ import { EditVacanteComponent } from './components/edit-vacante/edit-vacante.com
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { HeaderLogedComponent } from './components/header-loged/header-loged.component';
 import { EventosComponent } from './components/eventos/eventos.component';
+import { RegistroAspiranteComponent } from './components/registro-aspirante/registro-aspirante.component';
+import { AspirantesComponent } from './components/aspirantes/aspirantes.component';
+import { CalendarioComponent } from './components/calendario/calendario.component';
 
 const routes: Routes = [
   { path: 'inicio', component: Component },
@@ -19,10 +22,13 @@ const routes: Routes = [
   {path: 'header', component: HeaderComponent},
   {path: 'headerLog', component: HeaderLogedComponent},
   {path:'registro-empresas', component: RegistroEmpresaComponent},
+  {path:'registro-aspirante', component: RegistroAspiranteComponent},
   {path:'add-vacante', component: AgregarVacanteComponent},
   {path:'edit-vacante', component: EditVacanteComponent},
   {path:'nosotros', component: NosotrosComponent},
-  {path:'eventos', component: EventosComponent}
+  {path:'eventos', component: EventosComponent},
+  {path:'calendario', component: CalendarioComponent},
+  {path:'aspirantes', component: AspirantesComponent}
 ];
 
 @NgModule({

@@ -20,6 +20,9 @@ import { CalendarioComponent } from './components/calendario/calendario.componen
 import { VacantesCargadasComponent } from './components/vacantes-cargadas/vacantes-cargadas.component';
 import { AspirantesComponent } from './components/aspirantes/aspirantes.component';
 import { VacantesDisponiblesComponent } from './components/vacantes-disponibles/vacantes-disponibles.component';
+import { RegistroAspiranteComponent } from './components/registro-aspirante/registro-aspirante.component';
+import { MenuLateralAspiranteComponent } from './components/menu-lateral-aspirante/menu-lateral-aspirante.component';
+import { MenuLateralEmpresaComponent } from './components/menu-lateral-empresa/menu-lateral-empresa.component';
 
 
 
@@ -39,7 +42,10 @@ import { VacantesDisponiblesComponent } from './components/vacantes-disponibles/
     CalendarioComponent,
     VacantesCargadasComponent,
     AspirantesComponent,
-    VacantesDisponiblesComponent
+    VacantesDisponiblesComponent,
+    RegistroAspiranteComponent,
+    MenuLateralAspiranteComponent,
+    MenuLateralEmpresaComponent
   ],
   imports: [
     BrowserModule,

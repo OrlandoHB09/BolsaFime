@@ -1,0 +1,27 @@
+body {
+    background-image: url('../../../assets/images/fondoCalendario.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    height: 90vh;
+    flex-direction: column;
+    
+  }
+
+img{
+    height: 90%;
+    width: auto;
+}
+
+  .calendario{
+
+  margin:5px auto;
+  float:right;
+    top:5%;
+    left:67%;
+
+   
+  }
